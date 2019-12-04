@@ -56,6 +56,7 @@
 		311D34E4239796AB003EFC60 /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				311D34FF23979980003EFC60 /* Classes */,
 				311D34E5239796AB003EFC60 /* AppDelegate.swift */,
 				311D34E7239796AB003EFC60 /* SceneDelegate.swift */,
 				311D34E9239796AB003EFC60 /* ViewController.swift */,
@@ -65,6 +66,61 @@
 				311D34F3239796AE003EFC60 /* Info.plist */,
 			);
 			path = DouYu;
+			sourceTree = "<group>";
+		};
+		311D34FF23979980003EFC60 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				311D35002397999F003EFC60 /* Follow */,
+				311D35022397999F003EFC60 /* Home */,
+				311D35032397999F003EFC60 /* Live */,
+				311D35052397999F003EFC60 /* Main */,
+				311D35042397999F003EFC60 /* Profile */,
+				311D35012397999F003EFC60 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		311D35002397999F003EFC60 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		311D35012397999F003EFC60 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		311D35022397999F003EFC60 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		311D35032397999F003EFC60 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		311D35042397999F003EFC60 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		311D35052397999F003EFC60 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G434G4DWBZ;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chamei.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G434G4DWBZ;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chamei.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
